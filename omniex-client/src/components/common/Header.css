@@ -1,0 +1,26 @@
+header {
+  background-color: #0d3560 !important; }
+  header .container {
+    width: 100%;
+    justify-content: space-between; }
+    header .container .avatar {
+      background-color: #ff753b;
+      cursor: pointer; }
+    header .container .logo {
+      width: 146px;
+      padding: 20px 0; }
+    header .container .avatar-wrapper {
+      display: flex;
+      align-items: center;
+      color: #fff;
+      cursor: pointer; }
+      header .container .avatar-wrapper .name {
+        margin-right: 20px; }
+
+@media screen and (max-width: 480px) {
+  header .container .logo {
+    width: 80px;
+    padding: 20px 0; }
+  header .container .avatar-wrapper .name {
+    font-size: 16px;
+    margin: 0 5px 0 15px; } }

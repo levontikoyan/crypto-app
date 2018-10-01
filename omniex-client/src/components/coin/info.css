@@ -1,0 +1,53 @@
+.info {
+  padding: 30px 50px;
+  width: 100%; }
+  .info .info-wrapper {
+    display: flex;
+    justify-content: center; }
+    .info .info-wrapper .logo-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 80px; }
+      .info .info-wrapper .logo-wrapper img {
+        width: 128px;
+        height: 128px;
+        margin-bottom: 50px; }
+      .info .info-wrapper .logo-wrapper span {
+        margin-bottom: 15px; }
+      .info .info-wrapper .logo-wrapper .price {
+        color: #003563; }
+      .info .info-wrapper .logo-wrapper .percentage-change {
+        font-weight: bold;
+        font-size: 18px; }
+        .info .info-wrapper .logo-wrapper .percentage-change.green {
+          color: #009e73; }
+        .info .info-wrapper .logo-wrapper .percentage-change.red {
+          color: #d94040; }
+    .info .info-wrapper .information {
+      display: flex; }
+      .info .info-wrapper .information .info-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; }
+        .info .info-wrapper .information .info-section div {
+          color: #000; }
+        .info .info-wrapper .information .info-section h1 {
+          color: #000;
+          margin-top: 7px; }
+        .info .info-wrapper .information .info-section span {
+          color: #000;
+          font-weight: bold; }
+
+@media screen and (max-width: 480px) {
+  .info {
+    padding: 30px 10px; }
+    .info .info-wrapper {
+      align-items: center;
+      flex-direction: column; }
+      .info .info-wrapper .logo-wrapper {
+        margin: 0 0 20px; }
+      .info .info-wrapper .information {
+        display: flex; }
+        .info .info-wrapper .information .info-section div {
+          margin-bottom: 10px; } }

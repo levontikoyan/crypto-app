@@ -1,0 +1,27 @@
+.home .container.text-field .search-input {
+  align-self: flex-start;
+  width: 50%;
+  margin: 40px 0 20px; }
+  .home .container.text-field .search-input label {
+    color: #0d3560; }
+  .home .container.text-field .search-input > div:before {
+    border-bottom-color: #0d3560; }
+  .home .container.text-field .search-input > div:after {
+    border-bottom-color: #0d3560; }
+  .home .container.text-field .search-input input {
+    font-size: 30px; }
+
+.home .container.table > div {
+  overflow-y: scroll; }
+
+@media screen and (max-width: 768px) {
+  .home .container.text-field .search-input {
+    width: 80%; }
+    .home .container.text-field .search-input input {
+      font-size: 20px; } }
+
+@media screen and (max-width: 480px) {
+  .home .container.text-field .search-input {
+    width: 100%; }
+    .home .container.text-field .search-input input {
+      font-size: 16px; } }

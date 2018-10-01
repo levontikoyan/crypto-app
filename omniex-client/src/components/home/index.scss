@@ -1,0 +1,61 @@
+.home {
+  .container {
+    &.text-field {
+      .search-input {
+        align-self: flex-start;
+        width: 50%;
+        margin: 40px 0 20px;
+        label {
+          color: #0d3560;
+        }
+        > div {
+          &:before {
+            border-bottom-color: #0d3560;
+          }
+          &:after {
+            border-bottom-color: #0d3560;
+          }
+        }
+        input {
+
+          font-size: 30px;
+        }
+      }
+    }
+    &.table {
+      > div {
+        overflow-y: scroll;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  .home {
+    .container {
+      &.text-field {
+        .search-input {
+          width: 80%;
+          input {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px){
+  .home {
+    .container {
+      &.text-field {
+        .search-input {
+          width: 100%;
+          input {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}

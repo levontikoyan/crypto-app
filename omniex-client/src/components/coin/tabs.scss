@@ -1,0 +1,29 @@
+.tabs-component {
+  width: 100%;
+  background-color: #fff;
+  margin: 50px 0;
+  .tabs-header {
+    background-color: #ff6a20 !important;
+  }
+  .tabs {
+    .TabIndicator-root-75 {
+      background-color: #fff;
+    }
+  }
+  .tabs-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  header {
+     > div{
+        > div {
+            > div{
+                > span {
+                  background-color: #fff !important;
+                }
+            }
+        }
+    }
+  }
+}

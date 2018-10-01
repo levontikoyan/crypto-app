@@ -1,0 +1,10 @@
+.favorites {
+  .container {
+    h1 {
+      margin-bottom: 50px;
+    }
+    > div {
+      overflow-y: scroll;
+    }
+  }
+}

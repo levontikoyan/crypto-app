@@ -1,0 +1,5 @@
+.favorites .container h1 {
+  margin-bottom: 50px; }
+
+.favorites .container > div {
+  overflow-y: scroll; }
