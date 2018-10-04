@@ -6,8 +6,10 @@ Omniex React/Redux App
 
 ```
 npm install
+npm run build
 nodemon index.js
-npm start
+
+browse locahost:8080
 ```
 
 
